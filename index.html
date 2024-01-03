@@ -527,7 +527,19 @@ PEPI will be a conduit for future rewards and art release</p>
     </section>
     <!-- FAQ end --> 
     
-    
+    <div>
+        <div class="container">
+          <!-- TokenId -->
+          <p class="text-center text-light">TokenId: <a target="_blank"
+              href="https://explorer.salemkode.com/token/77a95410a07c2392c340384aef323aea902ebfa698a35815c4ef100062c6d8ac"
+              class="fw-500 bch-address">77a95410a07c2392c340384aef323aea902ebfa698a35815c4ef100062c6d8ac</a>
+            <!-- Smart Contract Address -->
+          <p class="text-center text-light">Smart Contract Address: <a target="_blank"
+              href="https://explorer.salemkode.com/address/bitcoincash:pvl88yaeyajf6cn8fhaf3qasl238rzrnpmnmgzr05krpkt0ez52z5rgwl9x9u"
+              class="fw-500 bch-address">bitcoincash:pvl88yaeyajf6cn8fhaf3qasl238rzrnpmnmgzr05krpkt0ez52z5rgwl9x9u</a>
+          </p>
+        </div>
+      </div>
     
     <!-- Join
     ============================== -->
@@ -557,11 +569,9 @@ PEPI will be a conduit for future rewards and art release</p>
     <div class="container"> 
       <!-- Social Icon -->
       <ul class="social-icons social-icons-dark social-icons-lg justify-content-center mb-4">
-        <li class="social-icons-discord"><a data-bs-toggle="tooltip" href="http://www.discord.com" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
-        <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.dribbble.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-        <li class="social-icons-telegram"><a data-bs-toggle="tooltip" href="http://www.telegram.com" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+        <li class="social-icons-discord"><a data-bs-toggle="tooltip" href="https://discord.gg/2CVfwC6Dmp" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
+        <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/CashPepi" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-icons-telegram"><a data-bs-toggle="tooltip" href="https://t.me/PepiCashTokenNFT" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
       </ul>
       <!-- Copyright Text -->
       <p class="text-center mb-4">Copyright © 2023 <a href="#" class="fw-500">Pepi</a>. All Rights Reserved.</p>
@@ -579,28 +589,22 @@ PEPI will be a conduit for future rewards and art release</p>
 <a id="back-to-top" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
 
 
-
-<!-- Styles Switcher -->
-<div id="styles-switcher" class="left">
-  <h2 class="text-4">Color Switcher</h2>
-  <hr>
-  <ul class="mb-0">
-    <li class="orange" data-bs-toggle="tooltip" title="Orange" data-path=""></li>
-    <li class="yellow" data-bs-toggle="tooltip" title="Yellow" data-path="css/color-yellow.css"></li>
-    <li class="indigo" data-bs-toggle="tooltip" title="Indigo" data-path="css/color-indigo.css"></li>
-    <li class="blue" data-bs-toggle="tooltip" title="Blue" data-path="css/color-blue.css"></li>
-    <li class="purple active" data-bs-toggle="tooltip" title="Purple" data-path="css/color-purple.css"></li>
-    <li class="cyan" data-bs-toggle="tooltip" title="Cyan" data-path="css/color-cyan.css"></li>
-    <li class="red" data-bs-toggle="tooltip" title="Red" data-path="css/color-red.css"></li>
-    <li class="pink" data-bs-toggle="tooltip" title="Pink" data-path="css/color-pink.css"></li>
-    <li class="green" data-bs-toggle="tooltip" title="Green" data-path="css/color-green.css"></li>
-    <li class="teal" data-bs-toggle="tooltip" title="Teal" data-path="css/color-teal.css"></li>
-  </ul>
-  <button class="btn switcher-toggle border-0"><i class="fas fa-cog"></i></button>
-</div>
-<!-- Styles Switcher End --> 
-
 <!-- JavaScript --> 
+        <script>
+    displayStats();
+    // update amount minted each 60 seconds
+    setInterval(displayStats, 60_000);
+
+    async function displayStats() {
+      try {
+        const fetchPromise = await fetch("https://api.ninjas.cash/");
+        const fetchResult = await fetchPromise.json();
+        document.getElementById("nftsMinted").textContent = fetchResult.nftsMinted;
+        document.getElementById("mintStatus").textContent = fetchResult.mintStatus;
+      } catch (error) { console.log(error); }
+    }
+  </script>
+<!-- JavaScript Imports-->        
 <script src="vendor/jquery/jquery.min.js"></script> 
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
 <!-- Owl Carousel --> 
@@ -608,6 +612,6 @@ PEPI will be a conduit for future rewards and art release</p>
 <!-- Parallax Mouse Move --> 
 <script src="vendor/parallax/parallax.min.js"></script> 
 <!-- Custom Script --> 
-<script src="js/theme.js"></script>
+<script src="js/theme.js" type="module"></script>
 </body>
 </html>
