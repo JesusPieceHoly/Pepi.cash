@@ -266,7 +266,7 @@ async function mintNFT(mintIndex, mintTotal) {
       transaction: decodedTransaction,
       sourceOutputs: listSourceOutputs,
       broadcast: true,
-      userPrompt: "Mint Cash-Ninja NFT"
+      userPrompt: "Mint Pepi NFT"
     };
 
     console.log(wcTransactionObj);
