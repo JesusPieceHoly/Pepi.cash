@@ -1,31 +1,38 @@
 {
   "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
-  "version": { "major": 1, "minor": 1, "patch": 0 },
-  "latestRevision": "2023-04-14T00:00:17.720Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "latestRevision": "2023-11-05T22:21:15.563Z",
   "registryIdentity": {
-    "name": "Pepi",
-    "description": "An example registry demonstrating how the issuer of a non-fungible token (NFT) art collection might publish information about the collection.",
+    "name": "Pepi NFT",
+    "description": "The REAL PEPI MEME NFT",
     "uris": {
-      "icon": "https://ipfs.io/ipfs/QmcKKDVtcgNXYXeUBCPx8WUmXMZkLGBAtxVt8GQrxmiLWJ?filename=icon.png",
-      "image": "https://ipfs.io/ipfs/QmVb43nysnMaRKvrn2T16QTkEninzSLNaYNBskBoatir8Z?filename=PepiToken.png",
-      "web": "https://pepi.cash",
-      "registry": "https://raw.githubusercontent.com/JesusPieceHoly/Pepi.cash/main/public/PreMint.json",
-      "telegram": "https://t.me/PepiCashTokenNFT",
+    "icon": "https://ipfs.io/ipfs/QmcKKDVtcgNXYXeUBCPx8WUmXMZkLGBAtxVt8GQrxmiLWJ?filename=icon.png",
+    "image": "https://ipfs.io/ipfs/QmVb43nysnMaRKvrn2T16QTkEninzSLNaYNBskBoatir8Z?filename=PepiToken.png",
+    "web": "https://pepi.cash",
+    "telegram": "https://t.me/PepiCashTokenNFT",
     "discord": "https://discord.gg/2CVfwC6Dmp",
     "twitter": "https://twitter.com/CashPepi",
     "artist": "https://britney2617.imgbb.com"
     }
   },
   "identities": {
-    "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd": {
-      "2023-01-13T00:00:00.000Z": {
-        "name": "Pepi NFT ",
-        "description": "This is a short description of the collection; in most interfaces, it will be hidden beyond 140 characters or the first newline character.\n\nThis sentence should be hidden in user interfaces with limited space.\n\nThis collection defines metadata for 3 sequential NFTs, Example #0 (XAMPLZ-0), Example #1 (XAMPLZ-1), and Example #2 (XAMPLZ-2). Note that the 'icon' for each NFT is published via IPFS, so clients may download each icon by querying IPFS or by using an IPFS HTTP Gateway.",
-        "token": {
-          "category": "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd",
-          "symbol": "PEPINFT",
-          "nfts": 
-    }
+    "f3eb5028ceff56b2c9a4ac6f56d12655f540426504ec8ff3ab23b9ed0e19a9b3": {
+      "2023-11-05T22:21:15.563Z": {
+        "name": "Pepi NFT",
+        "description": "Pepi NFT on CashTokens Bitcoin Cash",
+        "uris": {
+          "icon": "https://ipfs.io/ipfs/QmcKKDVtcgNXYXeUBCPx8WUmXMZkLGBAtxVt8GQrxmiLWJ?filename=icon.png",
+          "image": "https://ipfs.io/ipfs/QmVb43nysnMaRKvrn2T16QTkEninzSLNaYNBskBoatir8Z?filename=PepiToken.png",
+          "web": "https://pepi.cash",
+          "telegram": "https://t.me/PepiCashTokenNFT",
+          "discord": "https://discord.gg/2CVfwC6Dmp",
+          "twitter": "https://twitter.com/CashPepi",
+          "artist": "https://britney2617.imgbb.com"
+        },
   },
   "license": "CC0-1.0"
 }
