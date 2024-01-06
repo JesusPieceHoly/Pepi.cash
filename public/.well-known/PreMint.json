@@ -1,29 +1,25 @@
 {
   "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
   "version": {
-    "major": 1,
-    "minor": 0,
+    "major": 0,
+    "minor": 1,
     "patch": 0
   },
-  "latestRevision": "2023-11-05T22:21:15.563Z",
+  "latestRevision": "2023-07-21T13:23:43.107Z",
   "registryIdentity": {
-    "name": "Pepi NFT",
-    "description": "The REAL PEPI MEME NFT",
-    "uris": {
-    "icon": "https://ipfs.io/ipfs/QmcKKDVtcgNXYXeUBCPx8WUmXMZkLGBAtxVt8GQrxmiLWJ?filename=icon.png",
-    "image": "https://ipfs.io/ipfs/QmVb43nysnMaRKvrn2T16QTkEninzSLNaYNBskBoatir8Z?filename=PepiToken.png",
-    "web": "https://pepi.cash",
-    "telegram": "https://t.me/PepiCashTokenNFT",
-    "discord": "https://discord.gg/2CVfwC6Dmp",
-    "twitter": "https://twitter.com/CashPepi",
-    "artist": "https://britney2617.imgbb.com"
-    }
+    "name": "bcmr for Pepi NFT",
+    "description": "Pre-Mint BCMR for Pepi"
   },
   "identities": {
     "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd": {
-      "2023-11-05T22:21:15.563Z": {
-        "name": "Pepi NFT",
+      "2023-07-21T13:23:43.107Z": {
+        "name": "Pepi",
         "description": "Pepi NFT on CashTokens Bitcoin Cash",
+        "token": {
+          "category": "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd",
+          "symbol": "PEPINFT",
+          "decimals": 0
+        },
         "uris": {
           "icon": "https://ipfs.io/ipfs/QmcKKDVtcgNXYXeUBCPx8WUmXMZkLGBAtxVt8GQrxmiLWJ?filename=icon.png",
           "image": "https://ipfs.io/ipfs/QmVb43nysnMaRKvrn2T16QTkEninzSLNaYNBskBoatir8Z?filename=PepiToken.png",
@@ -32,7 +28,8 @@
           "discord": "https://discord.gg/2CVfwC6Dmp",
           "twitter": "https://twitter.com/CashPepi",
           "artist": "https://britney2617.imgbb.com"
-        },
-  },
-  "license": "CC0-1.0"
+        }
+      }
+    }
+  }
 }
