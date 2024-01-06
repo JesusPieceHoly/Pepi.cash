@@ -17,12 +17,12 @@
     }
   },
   "identities": {
-    "89cad9e3e34280eb1e8bc420542c00a7fcc01002b663dbf7f38bceddf80e680c": {
+    "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd": {
       "2023-01-13T00:00:00.000Z": {
         "name": "Pepi NFT ",
         "description": "This is a short description of the collection; in most interfaces, it will be hidden beyond 140 characters or the first newline character.\n\nThis sentence should be hidden in user interfaces with limited space.\n\nThis collection defines metadata for 3 sequential NFTs, Example #0 (XAMPLZ-0), Example #1 (XAMPLZ-1), and Example #2 (XAMPLZ-2). Note that the 'icon' for each NFT is published via IPFS, so clients may download each icon by querying IPFS or by using an IPFS HTTP Gateway.",
         "token": {
-          "category": "89cad9e3e34280eb1e8bc420542c00a7fcc01002b663dbf7f38bceddf80e680c",
+          "category": "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd",
           "symbol": "PEPINFT",
           "nfts": 
     }
