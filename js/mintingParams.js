@@ -7,11 +7,11 @@ const projectId = "ee25137ab77cffa284900841206a8e8f";
 const urlApiServer = "https://api.pepi.cash";
 
 // Contract Params mint
-const tokenId = "f3eb5028ceff56b2c9a4ac6f56d12655f540426504ec8ff3ab23b9ed0e19a9b3";
+const tokenId = "cd10870dab23ac5451e23381b35c1691049f77091463a1f98995d2551a052184";
 const collectionSize = 7_777;
-const numberOfThreads = 25;
+const numberOfThreads = 20;
 const mintPriceSats = 1_450_000;
-const payoutAddress = "bitcoincash:qrxsmt820w5lm4ep5zckesrq9zz6cpn7dq8mvrennl"; // with bitcoincash: or bchtest: prefix
+const payoutAddress = "bitcoincash:qzm5qumtmmdf49tx4gwn85yyv6wm4efyqqlzhyd8sg"; // with bitcoincash: or bchtest: prefix
 const network = "mainnet";
 
 // Wallet Connect Metadata
