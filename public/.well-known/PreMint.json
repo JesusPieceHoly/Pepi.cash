@@ -11,12 +11,12 @@
     "description": "Pre-Mint BCMR for Pepi"
   },
   "identities": {
-    "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd": {
+    "ede07cda80e8cdc0b211a2d2c35c57c16bd2758951a052bcdaf71f40e82aac28": {
       "2023-07-21T13:23:43.107Z": {
         "name": "Pepi",
         "description": "Pepi NFT on CashTokens Bitcoin Cash",
         "token": {
-          "category": "0890cc0af158ba4ce50f7ff5f55e85720d1f00da50d0dbbf7492ac60aea903dd",
+          "category": "ede07cda80e8cdc0b211a2d2c35c57c16bd2758951a052bcdaf71f40e82aac28",
           "symbol": "PEPINFT",
           "decimals": 0
         },
