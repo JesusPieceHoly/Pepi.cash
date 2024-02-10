@@ -270,7 +270,7 @@ async function mintNFT(mintIndex, mintTotal) {
     };
 
     console.log(wcTransactionObj);
-    setTimeout(() => alert('Approve the minting transaction in Cashonize'), 100);
+    setTimeout(() => alert('Approve the minting transaction in your connected wallet'), 100);
     const signResult = await signTransaction(wcTransactionObj);
     console.log(signResult);
     if (signResult) {
