@@ -11,7 +11,7 @@ const tokenId = "1a05bce0af8b57e27b11e9429fc534d0fc27230fc541928f38b3ca945c4bca1
 const collectionSize = 7_777;
 const numberOfThreads = 20;
 const mintPriceSats = 1_000_000;
-const payoutAddress = "bitcoincash:qzm5qumtmmdf49tx4gwn85yyv6wm4efyqqlzhyd8sg"; // with bitcoincash: or bchtest: prefix
+const payoutAddress = "bitcoincash:qzpwqfv9pkycyqxu4ugq5pfe54ufzuadlgp63hh88m"; // with bitcoincash: or bchtest: prefix
 const network = "mainnet";
 
 // Wallet Connect Metadata
